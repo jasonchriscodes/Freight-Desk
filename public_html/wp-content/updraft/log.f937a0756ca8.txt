@@ -1,0 +1,133 @@
+0000.002 () Opened log file at time: Sat, 03 Dec 2022 02:13:01 +0000 on https://freightdesk.co.nz
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 7.3.33 (fpm-fcgi, Linux whm1.nzcloudservices.nz 3.10.0-962.3.2.lve1.5.26.4.el7.x86_64 #1 SMP Wed Sep 11 10:29:54 EDT 2019 x86_64) MySQL: 5.7.40 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1G (used: 83.5M | 11M) multisite: N openssl: OpenSSL 1.1.1s  1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.035 () Free space on disk containing Updraft's temporary directory: 498588.1 MB
+0000.057 () Restore setup, now closing connection and starting restore over AJAX.
+0000.001 () Opened log file at time: Sat, 03 Dec 2022 02:13:03 +0000 on https://freightdesk.co.nz
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 7.3.33 (fpm-fcgi, Linux whm1.nzcloudservices.nz 3.10.0-962.3.2.lve1.5.26.4.el7.x86_64 #1 SMP Wed Sep 11 10:29:54 EDT 2019 x86_64) MySQL: 5.7.40 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1G (used: 80.4M | 9M) multisite: N openssl: OpenSSL 1.1.1s  1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.037 () Free space on disk containing Updraft's temporary directory: 498588.1 MB
+0000.061 () Ensuring WP_Filesystem is setup for a restore
+0000.063 () WP_Filesystem is setup and ready for a restore
+0000.066 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_e_events","wp_e_submissions","wp_e_submissions_actions_log","wp_e_submissions_values"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.074 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.082 () Entity: db
+0000.082 () restore_backup(backup_file=backup_2022-12-03-0015_freightdeskconz_231e5cabf590-db.gz, type=db, info=a:0:{}, last_one=)
+0000.083 () Unpacking backup... (backup_2022-12-03-0015_freightdeskconz_231e5cabf590-db.gz, 0.3 Mb)
+0000.084 () Database successfully unpacked
+0000.084 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.084 () Using direct MySQL access; value of use_mysqli is: 1
+0000.084 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.183 () Max packet size: 256 MB
+0000.183 () Entering maintenance mode
+0000.183 () Enabling Maintenance mode&#8230;
+0000.190 () Backup of: https://freightdesk.co.nz
+0000.190 () Content URL: https://freightdesk.co.nz/wp-content
+0000.190 () Uploads URL: https://freightdesk.co.nz/wp-content/uploads
+0000.190 () Old table prefix: wp_
+0000.191 () Site information: multisite=0
+0000.191 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.192 () New table prefix: u2_
+0000.194 () Processing table (MyISAM): wp_options - will restore as: u2_options
+0000.270 () Atomic restore: dropping original table (wp_options)
+0000.271 () Atomic restore: renaming new table (u2_options) to final table name (wp_options)
+0000.273 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.285 () Processing table (MyISAM): wp_users - will restore as: u2_users
+0000.312 () Atomic restore: dropping original table (wp_users)
+0000.313 () Atomic restore: renaming new table (u2_users) to final table name (wp_users)
+0000.313 () Processing table (MyISAM): wp_usermeta - will restore as: u2_usermeta
+0000.338 () Atomic restore: dropping original table (wp_usermeta)
+0000.339 () Atomic restore: renaming new table (u2_usermeta) to final table name (wp_usermeta)
+0000.339 () Processing table (MyISAM): wp_commentmeta - will restore as: u2_commentmeta
+0000.361 () Atomic restore: dropping original table (wp_commentmeta)
+0000.361 () Atomic restore: renaming new table (u2_commentmeta) to final table name (wp_commentmeta)
+0000.362 () Processing table (MyISAM): wp_comments - will restore as: u2_comments
+0000.383 () Atomic restore: dropping original table (wp_comments)
+0000.384 () Atomic restore: renaming new table (u2_comments) to final table name (wp_comments)
+0000.385 () Processing table (MyISAM): wp_links - will restore as: u2_links
+0000.408 () Atomic restore: dropping original table (wp_links)
+0000.409 () Atomic restore: renaming new table (u2_links) to final table name (wp_links)
+0000.410 () Processing table (MyISAM): wp_postmeta - will restore as: u2_postmeta
+0000.450 () Atomic restore: dropping original table (wp_postmeta)
+0000.451 () Atomic restore: renaming new table (u2_postmeta) to final table name (wp_postmeta)
+0000.452 () Processing table (MyISAM): wp_posts - will restore as: u2_posts
+0000.481 () Atomic restore: dropping original table (wp_posts)
+0000.482 () Atomic restore: renaming new table (u2_posts) to final table name (wp_posts)
+0000.483 () Processing table (MyISAM): wp_term_relationships - will restore as: u2_term_relationships
+0000.504 () Atomic restore: dropping original table (wp_term_relationships)
+0000.505 () Atomic restore: renaming new table (u2_term_relationships) to final table name (wp_term_relationships)
+0000.506 () Processing table (MyISAM): wp_term_taxonomy - will restore as: u2_term_taxonomy
+0000.532 () Atomic restore: dropping original table (wp_term_taxonomy)
+0000.533 () Atomic restore: renaming new table (u2_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.534 () Processing table (MyISAM): wp_termmeta - will restore as: u2_termmeta
+0000.556 () Atomic restore: dropping original table (wp_termmeta)
+0000.557 () Atomic restore: renaming new table (u2_termmeta) to final table name (wp_termmeta)
+0000.558 () Processing table (MyISAM): wp_terms - will restore as: u2_terms
+0000.578 () Atomic restore: dropping original table (wp_terms)
+0000.579 () Atomic restore: renaming new table (u2_terms) to final table name (wp_terms)
+0000.579 () Processing table (MyISAM): wp_e_events - will restore as: u2_e_events
+0000.602 () Atomic restore: dropping original table (wp_e_events)
+0000.603 () Atomic restore: renaming new table (u2_e_events) to final table name (wp_e_events)
+0000.604 () Processing table (MyISAM): wp_e_submissions - will restore as: u2_e_submissions
+0000.625 () Atomic restore: dropping original table (wp_e_submissions)
+0000.626 () Atomic restore: renaming new table (u2_e_submissions) to final table name (wp_e_submissions)
+0000.627 () Processing table (MyISAM): wp_e_submissions_actions_log - will restore as: u2_e_submissions_actions_log
+0000.650 () Atomic restore: dropping original table (wp_e_submissions_actions_log)
+0000.650 () Atomic restore: renaming new table (u2_e_submissions_actions_log) to final table name (wp_e_submissions_actions_log)
+0000.651 () Processing table (MyISAM): wp_e_submissions_values - will restore as: u2_e_submissions_values
+0000.673 () Database queries processed: 50 in 0.59 seconds
+0000.696 () Unlocking database and leaving maintenance mode
+0000.696 () Disabling Maintenance mode&#8230;
+0000.696 () Atomic restore: dropping original table (wp_e_submissions_values)
+0000.697 () Atomic restore: renaming new table (u2_e_submissions_values) to final table name (wp_e_submissions_values)
+0000.697 () Finished: lines processed: 51 in 0.61 seconds
+0000.698 () Cleaning up rubbish...
+0000.704 () Entity: plugins
+0000.704 () restore_backup(backup_file=backup_2022-12-03-0015_freightdeskconz_231e5cabf590-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:50:"/home/freightdeskco/public_html/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0000.705 () Unpacking backup... (backup_2022-12-03-0015_freightdeskconz_231e5cabf590-plugins.zip, 19.7 MB)
+0000.706 () Unzipping backup_2022-12-03-0015_freightdeskconz_231e5cabf590-plugins.zip to /home/freightdeskco/public_html/wp-content/upgrade/f987248e/ using UpdraftPlus_PclZip, starting index 0
+0001.616 () Unzip progress: 1002 out of 4557 files (1.9 MB, plugins/elementor/core/document-types/post.php)
+0017.595 () Unzip progress: 1607 out of 4557 files (15.8 MB, plugins/elementor-pro/assets/css/frontend-msie.min.css)
+0033.532 () Unzip progress: 1821 out of 4557 files (31.4 MB, plugins/elementor/assets/lib/font-awesome/json/brands.json)
+0049.503 () Unzip progress: 2269 out of 4557 files (46.4 MB, plugins/elementor/templates/647.json)
+0063.571 () Unzip progress: 3270 out of 4557 files (59.7 MB, plugins/updraftplus/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php)
+0079.511 () Unzip progress: 3866 out of 4557 files (73.1 MB, plugins/updraftplus/languages/updraftplus-bg_BG.po)
+0091.778 () Unzip progress: 4557 out of 4557 files (83.7 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Exceptions/DomainError.php)
+0091.783 () Moving old data: filesystem method / updraft_dir is potentially possible
+0091.783 () Moving old data: can potentially use wp_filesystem method / -old
+0091.783 () Moving old data out of the way...
+0092.130 () Top-level entities being moved: elementor-pro, woosidebars, contact-form-7, elementor, updraftplus, index.php, woocommerce, nextend-facebook-connect
+0092.134 () Moving unpacked backup into place...
+0092.284 () Top-level entities being moved: elementor-pro, elementor, updraftplus, index.php
+0092.286 () Cleaning up rubbish...
+0092.287 () Entity: themes
+0092.288 () restore_backup(backup_file=backup_2022-12-03-0015_freightdeskconz_231e5cabf590-themes.zip, type=themes, info=a:3:{s:4:"path";s:49:"/home/freightdeskco/public_html/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0092.288 () Unpacking backup... (backup_2022-12-03-0015_freightdeskconz_231e5cabf590-themes.zip, 17.1 MB)
+0092.288 () Unzipping backup_2022-12-03-0015_freightdeskconz_231e5cabf590-themes.zip to /home/freightdeskco/public_html/wp-content/upgrade/b067c402/ using UpdraftPlus_PclZip, starting index 0
+0109.549 () Unzip progress: 854 out of 1416 files (17.2 MB, themes/astra/assets/svg/ast-social-icons.json)
+0125.543 () Unzip progress: 1388 out of 1416 files (30.9 MB, themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2)
+0129.549 () Unzip progress: 1416 out of 1416 files (36.2 MB, themes/astra/inc/customizer/custom-controls/assets/minified/custom-controls.min-rtl.css)
+0129.553 () Moving old data: filesystem method / updraft_dir is potentially possible
+0129.553 () Moving old data: can potentially use wp_filesystem method / -old
+0129.553 () Moving old data out of the way...
+0129.790 () Top-level entities being moved: twentytwentythree, flatsome-child, twentytwentyone, flatsome, astra, index.php, twentytwentytwo
+0129.839 () Moving unpacked backup into place...
+0129.914 () Top-level entities being moved: twentytwentythree, twentytwentyone, astra, index.php, twentytwentytwo
+0129.916 () Cleaning up rubbish...
+0129.939 () Entity: uploads
+0129.939 () restore_backup(backup_file=backup_2022-12-03-0015_freightdeskconz_231e5cabf590-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:50:"/home/freightdeskco/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0129.939 () Unpacking backup... (backup_2022-12-03-0015_freightdeskconz_231e5cabf590-uploads.zip, 26.9 MB)
+0129.939 () Unzipping backup_2022-12-03-0015_freightdeskconz_231e5cabf590-uploads.zip to /home/freightdeskco/public_html/wp-content/upgrade/13bc7a79/ using UpdraftPlus_PclZip, starting index 0
+0157.711 () Unzip progress: 12 out of 12 files (26.9 MB, uploads/elementor/css/post-23.css)
+0157.716 () Moving old data: filesystem method / updraft_dir is potentially possible
+0157.716 () Moving old data: can potentially use wp_filesystem method / -old
+0157.716 () Moving old data out of the way...
+0157.718 () Moving unpacked backup into place...
+0157.719 () Cleaning up rubbish...
+0157.721 () Entity: others
+0157.721 () restore_backup(backup_file=backup_2022-12-03-0015_freightdeskconz_231e5cabf590-others.zip, type=others, info=a:2:{s:4:"path";s:42:"/home/freightdeskco/public_html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0157.721 () Unpacking backup... (backup_2022-12-03-0015_freightdeskconz_231e5cabf590-others.zip, 0 MB)
+0157.722 () Unzipping backup_2022-12-03-0015_freightdeskconz_231e5cabf590-others.zip to /home/freightdeskco/public_html/wp-content/upgrade/26224c0e/ using UpdraftPlus_PclZip, starting index 0
+0157.724 () Unzip progress: 1 out of 1 files (28 B, index.php)
+0157.725 () Cleaning up rubbish...
+0157.733 () Elementor's clear cache method exists and will be executed
+0157.754 () Restore successful!
+0157.754 () Restore successful
