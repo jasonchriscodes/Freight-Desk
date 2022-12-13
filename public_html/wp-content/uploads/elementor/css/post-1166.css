@@ -1,0 +1,37 @@
+.elementor-1166 .elementor-element.elementor-element-2864fef{--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--justify-content:center;--align-items:center;--overlay-transition:0.3s;}.elementor-1166 .elementor-element.elementor-element-1587040d{--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--justify-content:center;--align-items:center;--gap:10px;--overlay-transition:0.3s;}.elementor-1166 .elementor-element.elementor-element-5578e704{color:var( --e-global-color-7c4b922 );font-family:"Roboto", Sans-serif;font-size:16px;font-weight:400;width:auto;max-width:auto;}.elementor-1166 .elementor-element.elementor-element-5578e704 > .elementor-widget-container{margin:0px 0px -26px 0px;}.elementor-1166 .elementor-element.elementor-element-6c03d64{--divider-border-style:solid;--divider-color:#00000000;--divider-border-width:33px;width:auto;max-width:auto;}.elementor-1166 .elementor-element.elementor-element-6c03d64 .elementor-divider-separator{width:63px;}.elementor-1166 .elementor-element.elementor-element-6c03d64 .elementor-divider{padding-top:0px;padding-bottom:0px;}.elementor-1166 .elementor-element.elementor-element-6c03d64 > .elementor-widget-container{margin:0px 18px 0px 18px;background-color:var( --e-global-color-9a23627 );border-radius:30px 30px 30px 30px;}.elementor-1166 .elementor-element.elementor-element-69b5b125{color:var( --e-global-color-9a23627 );font-family:"Roboto", Sans-serif;font-size:16px;font-weight:700;width:auto;max-width:auto;}.elementor-1166 .elementor-element.elementor-element-69b5b125 > .elementor-widget-container{margin:0px 0px -26px 0px;}.elementor-1166 .elementor-element.elementor-element-636f19da > .elementor-widget-container{padding:0px 5px 0px 5px;background-color:#FFE878;border-radius:3px 3px 3px 3px;}body:not(.rtl) .elementor-1166 .elementor-element.elementor-element-636f19da{left:710px;}body.rtl .elementor-1166 .elementor-element.elementor-element-636f19da{right:710px;}.elementor-1166 .elementor-element.elementor-element-636f19da{top:12px;}/* Start custom CSS for divider, class: .elementor-element-6c03d64 */.elementor-1166 .elementor-element.elementor-element-6c03d64{
+    --inactive-color: #E2E2E2;
+    --padding: 5px;
+    --size: 23px;
+}
+.elementor-1166 .elementor-element.elementor-element-6c03d64.monthly .elementor-widget-container{
+    background: var(--inactive-color);
+}
+.elementor-1166 .elementor-element.elementor-element-6c03d64 .elementor-divider{
+    position: relative;
+    cursor: pointer;
+}
+.elementor-1166 .elementor-element.elementor-element-6c03d64 .elementor-divider:after{
+    content: "";
+    position: absolute;
+    top: var(--padding);
+    left: calc(100% - var(--size) - var(--padding));
+    height: var(--size);
+    width: var(--size);
+    background: #fff;
+    border-radius: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.elementor-1166 .elementor-element.elementor-element-6c03d64.monthly .elementor-divider:after{
+    left: var(--padding);
+}/* End custom CSS */
+/* Start custom CSS for shortcode, class: .elementor-element-636f19da */.elementor-1166 .elementor-element.elementor-element-636f19da{
+    left: calc(50% + 100px);
+}
+@media (max-width: 767px){
+    .elementor-1166 .elementor-element.elementor-element-636f19da{
+        left: calc(50% + 50px);
+    }
+}
+.elementor-button-text{
+    
+}/* End custom CSS */
