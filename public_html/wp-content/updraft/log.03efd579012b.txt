@@ -1,0 +1,732 @@
+0000.000 (0) Opened log file at time: Wed, 14 Dec 2022 21:34:59 +0000 on https://freightdesk.co.nz
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 7.3.33 (fpm-fcgi, Linux whm1.nzcloudservices.nz 3.10.0-962.3.2.lve1.5.26.4.el7.x86_64 #1 SMP Wed Sep 11 10:29:54 EDT 2019 x86_64) MySQL: 5.7.40 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1G (used: 66.9M | 23M) multisite: N openssl: OpenSSL 1.1.1s  1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.053 (0) Free space on disk containing Updraft's temporary directory: 483854.2 MB
+0000.055 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.057 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.059 (0) Set semaphore last lock (fd) time to 2022-12-14 21:34:59
+0000.059 (0) Semaphore lock (fd) complete
+0000.062 (0) Backup run: resumption=0, nonce=03efd579012b, file_nonce=03efd579012b begun at=1671053699 (0s ago), job type=backup
+0000.063 (0) Scheduling a resumption (1) after 340 seconds (1671054039) in case this run gets aborted
+0000.198 (0) Checking if we have a zip executable available
+0000.228 (0) Testing: /usr/bin/zip
+0000.236 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.237 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.238 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.238 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.239 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.248 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.248 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.256 (0) Working binary zip found: /usr/bin/zip
+0000.261 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.261 (0) Creation of backups of directories: beginning
+0000.263 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.698 (0) Total entities for the zip file: 1387 directories, 5861 files (0 skipped as non-modified), 114.2 MB
+0000.703 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.706 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.709 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.712 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.715 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.718 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.721 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.724 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.727 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.730 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.730 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.8 MB, 5861 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0027.619 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: size is now: 6.90 MB
+0027.627 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 1100 files added (on-disk size: 7049.6 KB)
+0027.631 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 1200 files added (on-disk size: 7049.6 KB)
+0027.635 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 1300 files added (on-disk size: 7049.6 KB)
+0027.638 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 1400 files added (on-disk size: 7049.6 KB)
+0027.642 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 1500 files added (on-disk size: 7049.6 KB)
+0027.646 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 1600 files added (on-disk size: 7049.6 KB)
+0027.649 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 1700 files added (on-disk size: 7049.6 KB)
+0027.653 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 1800 files added (on-disk size: 7049.6 KB)
+0027.657 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 1900 files added (on-disk size: 7049.6 KB)
+0027.664 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 2000 files added (on-disk size: 7049.6 KB)
+0027.665 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.8 MB, 5861 files batched, 1001 (2002) added so far); re-opening (prior size: 7049.6 KB)
+0066.318 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: size is now: 13.90 MB
+0066.324 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 2100 files added (on-disk size: 14186.9 KB)
+0066.328 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 2200 files added (on-disk size: 14186.9 KB)
+0067.949 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 2300 files added (on-disk size: 14186.9 KB)
+0067.952 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 2400 files added (on-disk size: 14186.9 KB)
+0067.955 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 2500 files added (on-disk size: 14186.9 KB)
+0067.957 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 2600 files added (on-disk size: 14186.9 KB)
+0067.960 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 2700 files added (on-disk size: 14186.9 KB)
+0067.963 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 2800 files added (on-disk size: 14186.9 KB)
+0067.966 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 2900 files added (on-disk size: 14186.9 KB)
+0067.969 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 3000 files added (on-disk size: 14186.9 KB)
+0067.970 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.4 MB, 5861 files batched, 1001 (3003) added so far); re-opening (prior size: 14186.9 KB)
+0088.127 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: size is now: 19.90 MB
+0088.131 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 3100 files added (on-disk size: 20403.3 KB)
+0088.135 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 3200 files added (on-disk size: 20403.3 KB)
+0088.138 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 3300 files added (on-disk size: 20403.3 KB)
+0088.141 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 3400 files added (on-disk size: 20403.3 KB)
+0088.144 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 3500 files added (on-disk size: 20403.3 KB)
+0088.147 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 3600 files added (on-disk size: 20403.3 KB)
+0088.150 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 3700 files added (on-disk size: 20403.3 KB)
+0088.153 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 3800 files added (on-disk size: 20403.3 KB)
+0088.156 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 3900 files added (on-disk size: 20403.3 KB)
+0088.159 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 4000 files added (on-disk size: 20403.3 KB)
+0088.159 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.1 MB, 5861 files batched, 1001 (4004) added so far); re-opening (prior size: 20403.3 KB)
+0108.899 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 4100 files added (on-disk size: 22585.5 KB)
+0108.904 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 4200 files added (on-disk size: 22585.5 KB)
+0108.911 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 4300 files added (on-disk size: 22585.5 KB)
+0108.915 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 4400 files added (on-disk size: 22585.5 KB)
+0108.919 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 4500 files added (on-disk size: 22585.5 KB)
+0108.923 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 4600 files added (on-disk size: 22585.5 KB)
+0108.927 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 4700 files added (on-disk size: 22585.5 KB)
+0108.931 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 4800 files added (on-disk size: 22585.5 KB)
+0108.935 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 4900 files added (on-disk size: 22585.5 KB)
+0108.939 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 5000 files added (on-disk size: 22585.5 KB)
+0108.940 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23 MB, 5861 files batched, 1001 (5005) added so far); re-opening (prior size: 22585.5 KB)
+0139.654 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: size is now: 29.50 MB
+0139.659 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 5100 files added (on-disk size: 30257.1 KB)
+0139.663 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 5200 files added (on-disk size: 30257.1 KB)
+0139.667 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 5300 files added (on-disk size: 30257.1 KB)
+0139.675 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 5400 files added (on-disk size: 30257.1 KB)
+0139.678 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 5500 files added (on-disk size: 30257.1 KB)
+0139.682 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 5600 files added (on-disk size: 30257.1 KB)
+0139.686 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 5700 files added (on-disk size: 30257.1 KB)
+0139.691 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.tmp: 5800 files added (on-disk size: 30257.1 KB)
+0173.892 (0) Creating zip file manifest (backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.list-temp.tmp)
+0174.015 (0) Successfully created zip file manifest (size: 493520)
+0174.922 (0) Created plugins zip (0) - 35158.1 KB in 174.6 s (201.4 KB/s) (sha1: 7dfc216c8dfb9db750d2c37a1665c2686b37ed26, sha256: bbd737d76f6222e8555956c04519580ebaaf6beb72596a04b53d96a6c1c3a72a)
+0174.932 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0174.932 (0) No remote despatch: user chose no remote backup service
+0174.933 (0) Recording as successfully uploaded: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip
+0174.934 (0) Deleting zip manifest (backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip.list.tmp)
+0174.936 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0174.937 (0) Number of backup sets in history: 10; groups (db): 1
+0174.938 (0) Examining (for databases) backup set with group_id=0, nonce=4a3fc63f2874, datestamp=1670986979 (Dec 14 2022 03:02:59)
+0174.939 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.939 (0) Examining (for databases) backup set with group_id=0, nonce=cafe67ad8562, datestamp=1670983348 (Dec 14 2022 02:02:28)
+0174.939 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.939 (0) Examining (for databases) backup set with group_id=0, nonce=0898697e0169, datestamp=1670964134 (Dec 13 2022 20:42:14)
+0174.939 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.940 (0) Examining (for databases) backup set with group_id=0, nonce=24c1ccfda8b8, datestamp=1670913416 (Dec 13 2022 06:36:56)
+0174.940 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.940 (0) Examining (for databases) backup set with group_id=0, nonce=df9bf748257a, datestamp=1670818963 (Dec 12 2022 04:22:43)
+0174.940 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.940 (0) Examining (for databases) backup set with group_id=0, nonce=5024fe6228ac, datestamp=1670818629 (Dec 12 2022 04:17:09)
+0174.940 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.940 (0) Examining (for databases) backup set with group_id=0, nonce=f67bfeb58b34, datestamp=1670192986 (Dec 04 2022 22:29:46)
+0174.940 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.941 (0) Examining (for databases) backup set with group_id=0, nonce=31d36658e791, datestamp=1670123340 (Dec 04 2022 03:09:00)
+0174.941 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.941 (0) Examining (for databases) backup set with group_id=0, nonce=e968eae106de, datestamp=1670119082 (Dec 04 2022 01:58:02)
+0174.941 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.941 (0) Examining (for databases) backup set with group_id=0, nonce=b5902934239c, datestamp=1670066205 (Dec 03 2022 11:16:45)
+0174.941 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.941 (0) Number of backup sets in history: 10; groups (files): 1
+0174.942 (0) Examining (for files) backup set with nonce=4a3fc63f2874, datestamp=1670986979 (Dec 14 2022 03:02:59)
+0174.942 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.942 (0) Examining (for files) backup set with nonce=cafe67ad8562, datestamp=1670983348 (Dec 14 2022 02:02:28)
+0174.942 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.943 (0) Examining (for files) backup set with nonce=0898697e0169, datestamp=1670964134 (Dec 13 2022 20:42:14)
+0174.943 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.943 (0) Examining (for files) backup set with nonce=24c1ccfda8b8, datestamp=1670913416 (Dec 13 2022 06:36:56)
+0174.943 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.943 (0) Examining (for files) backup set with nonce=df9bf748257a, datestamp=1670818963 (Dec 12 2022 04:22:43)
+0174.943 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.943 (0) Examining (for files) backup set with nonce=5024fe6228ac, datestamp=1670818629 (Dec 12 2022 04:17:09)
+0174.943 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.944 (0) Examining (for files) backup set with nonce=f67bfeb58b34, datestamp=1670192986 (Dec 04 2022 22:29:46)
+0174.944 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.944 (0) Examining (for files) backup set with nonce=31d36658e791, datestamp=1670123340 (Dec 04 2022 03:09:00)
+0174.944 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.944 (0) Examining (for files) backup set with nonce=e968eae106de, datestamp=1670119082 (Dec 04 2022 01:58:02)
+0174.944 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.944 (0) Examining (for files) backup set with nonce=b5902934239c, datestamp=1670066205 (Dec 03 2022 11:16:45)
+0174.944 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0174.944 (0) Retain: saving new backup history (sets now: 10) and finishing retain operation
+0174.949 (0) Beginning creation of dump of themes (split every: 400 MB)
+0175.150 (0) Total entities for the zip file: 557 directories, 2700 files (0 skipped as non-modified), 49 MB
+0175.155 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0175.158 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0175.162 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0175.166 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0175.193 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0175.199 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0175.203 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0175.207 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0175.211 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0175.215 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0175.215 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.2 MB, 2700 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0180.440 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: size is now: 7.80 MB
+0180.446 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 1100 files added (on-disk size: 7946.8 KB)
+0180.450 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 1200 files added (on-disk size: 7946.8 KB)
+0180.454 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 1300 files added (on-disk size: 7946.8 KB)
+0180.457 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 1400 files added (on-disk size: 7946.8 KB)
+0180.461 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 1500 files added (on-disk size: 7946.8 KB)
+0180.465 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 1600 files added (on-disk size: 7946.8 KB)
+0180.492 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 1700 files added (on-disk size: 7946.8 KB)
+0180.496 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 1800 files added (on-disk size: 7946.8 KB)
+0180.499 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 1900 files added (on-disk size: 7946.8 KB)
+0180.503 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 2000 files added (on-disk size: 7946.8 KB)
+0180.504 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.7 MB, 2700 files batched, 1001 (2002) added so far); re-opening (prior size: 7946.8 KB)
+0192.389 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: size is now: 11.20 MB
+0192.395 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 2100 files added (on-disk size: 11482.1 KB)
+0192.399 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 2200 files added (on-disk size: 11482.1 KB)
+0192.402 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 2300 files added (on-disk size: 11482.1 KB)
+0192.405 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 2400 files added (on-disk size: 11482.1 KB)
+0192.408 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 2500 files added (on-disk size: 11482.1 KB)
+0192.411 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 2700 files batched, 585 (2587) added so far); re-opening (prior size: 11482.1 KB)
+0213.350 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: size is now: 20.30 MB
+0213.352 (0) A useful amount of data was added after this amount of zip processing: 21.4 s (normalised: 21.2 s, rate: 1205.7 KB/s)
+0213.354 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 2600 files added (on-disk size: 20829.3 KB)
+0213.358 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.tmp: 2700 files added (on-disk size: 20829.3 KB)
+0235.589 (0) Creating zip file manifest (backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.list-temp.tmp)
+0235.639 (0) Successfully created zip file manifest (size: 213957)
+0236.264 (0) Created themes zip (0) - 23631.7 KB in 61.3 s (385.8 KB/s) (sha1: 082657494e9b3ab5f427909bf3dcfd2414ae336a, sha256: 8adcf30cd2c379a92f27841023d9fd4cfadde32d60ec6af50d3626e14f35665b)
+0236.271 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0236.271 (0) No remote despatch: user chose no remote backup service
+0236.272 (0) Recording as successfully uploaded: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip
+0236.274 (0) Deleting zip manifest (backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip.list.tmp)
+0236.275 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0236.277 (0) Number of backup sets in history: 10; groups (db): 1
+0236.279 (0) Examining (for databases) backup set with group_id=0, nonce=4a3fc63f2874, datestamp=1670986979 (Dec 14 2022 03:02:59)
+0236.280 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.281 (0) Examining (for databases) backup set with group_id=0, nonce=cafe67ad8562, datestamp=1670983348 (Dec 14 2022 02:02:28)
+0236.281 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.281 (0) Examining (for databases) backup set with group_id=0, nonce=0898697e0169, datestamp=1670964134 (Dec 13 2022 20:42:14)
+0236.281 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.281 (0) Examining (for databases) backup set with group_id=0, nonce=24c1ccfda8b8, datestamp=1670913416 (Dec 13 2022 06:36:56)
+0236.282 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.282 (0) Examining (for databases) backup set with group_id=0, nonce=df9bf748257a, datestamp=1670818963 (Dec 12 2022 04:22:43)
+0236.282 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.282 (0) Examining (for databases) backup set with group_id=0, nonce=5024fe6228ac, datestamp=1670818629 (Dec 12 2022 04:17:09)
+0236.282 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.283 (0) Examining (for databases) backup set with group_id=0, nonce=f67bfeb58b34, datestamp=1670192986 (Dec 04 2022 22:29:46)
+0236.283 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.283 (0) Examining (for databases) backup set with group_id=0, nonce=31d36658e791, datestamp=1670123340 (Dec 04 2022 03:09:00)
+0236.283 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.284 (0) Examining (for databases) backup set with group_id=0, nonce=e968eae106de, datestamp=1670119082 (Dec 04 2022 01:58:02)
+0236.284 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.284 (0) Examining (for databases) backup set with group_id=0, nonce=b5902934239c, datestamp=1670066205 (Dec 03 2022 11:16:45)
+0236.284 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.284 (0) Number of backup sets in history: 10; groups (files): 1
+0236.285 (0) Examining (for files) backup set with nonce=4a3fc63f2874, datestamp=1670986979 (Dec 14 2022 03:02:59)
+0236.285 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.286 (0) Examining (for files) backup set with nonce=cafe67ad8562, datestamp=1670983348 (Dec 14 2022 02:02:28)
+0236.286 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.287 (0) Examining (for files) backup set with nonce=0898697e0169, datestamp=1670964134 (Dec 13 2022 20:42:14)
+0236.287 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.287 (0) Examining (for files) backup set with nonce=24c1ccfda8b8, datestamp=1670913416 (Dec 13 2022 06:36:56)
+0236.287 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.287 (0) Examining (for files) backup set with nonce=df9bf748257a, datestamp=1670818963 (Dec 12 2022 04:22:43)
+0236.288 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.288 (0) Examining (for files) backup set with nonce=5024fe6228ac, datestamp=1670818629 (Dec 12 2022 04:17:09)
+0236.288 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.288 (0) Examining (for files) backup set with nonce=f67bfeb58b34, datestamp=1670192986 (Dec 04 2022 22:29:46)
+0236.288 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.289 (0) Examining (for files) backup set with nonce=31d36658e791, datestamp=1670123340 (Dec 04 2022 03:09:00)
+0236.289 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.289 (0) Examining (for files) backup set with nonce=e968eae106de, datestamp=1670119082 (Dec 04 2022 01:58:02)
+0236.289 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.289 (0) Examining (for files) backup set with nonce=b5902934239c, datestamp=1670066205 (Dec 03 2022 11:16:45)
+0236.289 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.290 (0) Retain: saving new backup history (sets now: 10) and finishing retain operation
+0236.296 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0236.296 (0) Looking for candidates to backup in: /home/freightdeskco/public_html/wp-content/uploads
+0236.297 (0) finding files: premium-addons-elementor: adding to list (1)
+0236.298 (0) finding files: essential-addons-elementor: adding to list (2)
+0236.299 (0) finding files: 2022: adding to list (3)
+0236.299 (0) finding files: elementor: adding to list (4)
+0236.300 (0) finding files: wpforms: adding to list (5)
+0236.301 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0236.354 (0) Total entities for the zip file: 10 directories, 132 files (0 skipped as non-modified), 64.7 MB
+0236.357 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 132 files batched, 45 (45) added so far); re-opening (prior size: 0 KB)
+0258.797 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-uploads.zip.tmp: size is now: 23.70 MB
+0258.799 (0) A useful amount of data was added after this amount of zip processing: 22.8 s (normalised: 22.8 s, rate: 1124.6 KB/s)
+0258.801 (0) Performance is good - will increase the amount of data we attempt to batch (time=22.831999063492, normalised_time=22.763622401994, max_time=258.79952692986, data points known=1, old_max_bytes=26214400, new_max_bytes=178818841)
+0258.804 (0) Zip: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-uploads.zip.tmp: 100 files added (on-disk size: 24293.6 KB)
+0313.013 (0) The time we have been running (313) is approaching the resumption interval (340) - increasing resumption interval to 344
+0321.013 (0) The time we have been running (321) is approaching the resumption interval (344) - increasing resumption interval to 352
+0321.018 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-uploads.zip.tmp: size is now: 61.10 MB
+0321.020 (0) The scheduled resumption is within 45 seconds - will reschedule
+0321.021 (0) Rescheduling resumption 1: moving to 397 seconds from now (1671054417)
+0321.023 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 352 + 45 = 397
+0321.026 (0) Creating zip file manifest (backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-uploads.zip.list-temp.tmp)
+0321.029 (0) Successfully created zip file manifest (size: 7053)
+0322.640 (0) Created uploads zip (0) - 62587.1 KB in 86.3 s (725.3 KB/s) (sha1: dd317dfe8287841992fd26f35653b4940140237c, sha256: 827a58a36a2d897dc8f7fe3249fbc6da25ea8a005df2cc2c8d70b921704bddd9)
+0322.643 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0322.644 (0) No remote despatch: user chose no remote backup service
+0322.645 (0) Recording as successfully uploaded: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-uploads.zip
+0322.646 (0) Deleting zip manifest (backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-uploads.zip.list.tmp)
+0322.648 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0322.649 (0) Number of backup sets in history: 10; groups (db): 1
+0322.650 (0) Examining (for databases) backup set with group_id=0, nonce=4a3fc63f2874, datestamp=1670986979 (Dec 14 2022 03:02:59)
+0322.651 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.651 (0) Examining (for databases) backup set with group_id=0, nonce=cafe67ad8562, datestamp=1670983348 (Dec 14 2022 02:02:28)
+0322.651 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.651 (0) Examining (for databases) backup set with group_id=0, nonce=0898697e0169, datestamp=1670964134 (Dec 13 2022 20:42:14)
+0322.652 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.652 (0) Examining (for databases) backup set with group_id=0, nonce=24c1ccfda8b8, datestamp=1670913416 (Dec 13 2022 06:36:56)
+0322.652 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.652 (0) Examining (for databases) backup set with group_id=0, nonce=df9bf748257a, datestamp=1670818963 (Dec 12 2022 04:22:43)
+0322.652 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.652 (0) Examining (for databases) backup set with group_id=0, nonce=5024fe6228ac, datestamp=1670818629 (Dec 12 2022 04:17:09)
+0322.652 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.652 (0) Examining (for databases) backup set with group_id=0, nonce=f67bfeb58b34, datestamp=1670192986 (Dec 04 2022 22:29:46)
+0322.652 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.653 (0) Examining (for databases) backup set with group_id=0, nonce=31d36658e791, datestamp=1670123340 (Dec 04 2022 03:09:00)
+0322.653 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.653 (0) Examining (for databases) backup set with group_id=0, nonce=e968eae106de, datestamp=1670119082 (Dec 04 2022 01:58:02)
+0322.653 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.653 (0) Examining (for databases) backup set with group_id=0, nonce=b5902934239c, datestamp=1670066205 (Dec 03 2022 11:16:45)
+0322.653 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.653 (0) Number of backup sets in history: 10; groups (files): 1
+0322.654 (0) Examining (for files) backup set with nonce=4a3fc63f2874, datestamp=1670986979 (Dec 14 2022 03:02:59)
+0322.654 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.655 (0) Examining (for files) backup set with nonce=cafe67ad8562, datestamp=1670983348 (Dec 14 2022 02:02:28)
+0322.655 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.655 (0) Examining (for files) backup set with nonce=0898697e0169, datestamp=1670964134 (Dec 13 2022 20:42:14)
+0322.655 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.655 (0) Examining (for files) backup set with nonce=24c1ccfda8b8, datestamp=1670913416 (Dec 13 2022 06:36:56)
+0322.655 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.655 (0) Examining (for files) backup set with nonce=df9bf748257a, datestamp=1670818963 (Dec 12 2022 04:22:43)
+0322.655 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.655 (0) Examining (for files) backup set with nonce=5024fe6228ac, datestamp=1670818629 (Dec 12 2022 04:17:09)
+0322.656 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.656 (0) Examining (for files) backup set with nonce=f67bfeb58b34, datestamp=1670192986 (Dec 04 2022 22:29:46)
+0322.656 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.656 (0) Examining (for files) backup set with nonce=31d36658e791, datestamp=1670123340 (Dec 04 2022 03:09:00)
+0322.656 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.656 (0) Examining (for files) backup set with nonce=e968eae106de, datestamp=1670119082 (Dec 04 2022 01:58:02)
+0322.656 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.656 (0) Examining (for files) backup set with nonce=b5902934239c, datestamp=1670066205 (Dec 03 2022 11:16:45)
+0322.656 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.657 (0) Retain: saving new backup history (sets now: 10) and finishing retain operation
+0322.662 (0) Beginning backup of other directories found in the content directory (index: 0)
+0322.662 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0322.663 (0) Looking for candidates to backup in: /home/freightdeskco/public_html/wp-content
+0322.664 (0) finding files: updraft: skipping: this is the updraft directory
+0322.664 (0) finding files: plugins: skipping: this is the plugins directory
+0322.665 (0) finding files: uploads: skipping: this is the uploads directory
+0322.665 (0) finding files: upgrade: skipping: excluded by options
+0322.666 (0) finding files: themes-old: adding to list (1)
+0322.667 (0) finding files: uploads-old: adding to list (2)
+0322.667 (0) finding files: themes: skipping: this is the themes directory
+0322.687 (0) finding files: mu-plugins: adding to list (3)
+0322.688 (0) finding files: index.php-old: adding to list (4)
+0322.689 (0) finding files: index.php: adding to list (5)
+0322.733 (0) Total entities for the zip file: 3 directories, 3 files (0 skipped as non-modified), 0 MB
+0322.746 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-others.zip.tmp: size is now: 0.00 MB
+0322.748 (0) Creating zip file manifest (backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-others.zip.list-temp.tmp)
+0322.749 (0) Successfully created zip file manifest (size: 109)
+0322.762 (0) Created others zip (0) - 2.5 KB in 0 s (82.5 KB/s) (sha1: 41e4292f1f332dd4b435f6e7e474e7d815243b4b, sha256: 1f52cda9f7624dbb2447eecf06ec970641a2b56ceb529ac297b510df8c850f75)
+0322.766 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0322.766 (0) No remote despatch: user chose no remote backup service
+0322.767 (0) Recording as successfully uploaded: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-others.zip
+0322.770 (0) Deleting zip manifest (backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-others.zip.list.tmp)
+0322.789 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0322.792 (0) Number of backup sets in history: 10; groups (db): 1
+0322.793 (0) Examining (for databases) backup set with group_id=0, nonce=4a3fc63f2874, datestamp=1670986979 (Dec 14 2022 03:02:59)
+0322.793 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.794 (0) Examining (for databases) backup set with group_id=0, nonce=cafe67ad8562, datestamp=1670983348 (Dec 14 2022 02:02:28)
+0322.794 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.795 (0) Examining (for databases) backup set with group_id=0, nonce=0898697e0169, datestamp=1670964134 (Dec 13 2022 20:42:14)
+0322.795 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.795 (0) Examining (for databases) backup set with group_id=0, nonce=24c1ccfda8b8, datestamp=1670913416 (Dec 13 2022 06:36:56)
+0322.795 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.796 (0) Examining (for databases) backup set with group_id=0, nonce=df9bf748257a, datestamp=1670818963 (Dec 12 2022 04:22:43)
+0322.796 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.796 (0) Examining (for databases) backup set with group_id=0, nonce=5024fe6228ac, datestamp=1670818629 (Dec 12 2022 04:17:09)
+0322.796 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.796 (0) Examining (for databases) backup set with group_id=0, nonce=f67bfeb58b34, datestamp=1670192986 (Dec 04 2022 22:29:46)
+0322.797 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.797 (0) Examining (for databases) backup set with group_id=0, nonce=31d36658e791, datestamp=1670123340 (Dec 04 2022 03:09:00)
+0322.797 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.797 (0) Examining (for databases) backup set with group_id=0, nonce=e968eae106de, datestamp=1670119082 (Dec 04 2022 01:58:02)
+0322.797 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.798 (0) Examining (for databases) backup set with group_id=0, nonce=b5902934239c, datestamp=1670066205 (Dec 03 2022 11:16:45)
+0322.798 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.798 (0) Number of backup sets in history: 10; groups (files): 1
+0322.799 (0) Examining (for files) backup set with nonce=4a3fc63f2874, datestamp=1670986979 (Dec 14 2022 03:02:59)
+0322.799 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.800 (0) Examining (for files) backup set with nonce=cafe67ad8562, datestamp=1670983348 (Dec 14 2022 02:02:28)
+0322.801 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.801 (0) Examining (for files) backup set with nonce=0898697e0169, datestamp=1670964134 (Dec 13 2022 20:42:14)
+0322.801 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.801 (0) Examining (for files) backup set with nonce=24c1ccfda8b8, datestamp=1670913416 (Dec 13 2022 06:36:56)
+0322.801 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.802 (0) Examining (for files) backup set with nonce=df9bf748257a, datestamp=1670818963 (Dec 12 2022 04:22:43)
+0322.802 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.802 (0) Examining (for files) backup set with nonce=5024fe6228ac, datestamp=1670818629 (Dec 12 2022 04:17:09)
+0322.802 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.802 (0) Examining (for files) backup set with nonce=f67bfeb58b34, datestamp=1670192986 (Dec 04 2022 22:29:46)
+0322.802 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.802 (0) Examining (for files) backup set with nonce=31d36658e791, datestamp=1670123340 (Dec 04 2022 03:09:00)
+0322.802 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.802 (0) Examining (for files) backup set with nonce=e968eae106de, datestamp=1670119082 (Dec 04 2022 01:58:02)
+0322.802 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.803 (0) Examining (for files) backup set with nonce=b5902934239c, datestamp=1670066205 (Dec 03 2022 11:16:45)
+0322.803 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0322.803 (0) Retain: saving new backup history (sets now: 10) and finishing retain operation
+0322.810 (0) Saving backup status to database (elements: 8)
+0322.814 (0) Beginning creation of database dump (WordPress DB)
+0322.815 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0322.817 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0324.387 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1542 bytes total)
+0324.510 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0324.527 (0) Table wp_options: Total expected rows (via COUNT): 348
+0324.527 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0324.589 (0) Table wp_options: Rows added in this batch (next record: 7490): 344 (uncompressed bytes in this segment=1093219) in 0.07 seconds
+0324.594 (0) Table wp_options: finishing file(s) (2, 122 KB)
+0324.598 (0) Table wp_users: Total expected rows (via COUNT): 1
+0324.599 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0324.601 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1426) in 0.01 seconds
+0324.607 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0324.613 (0) Table wp_usermeta: Total expected rows (via COUNT): 28
+0324.613 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0324.616 (0) Table wp_usermeta: Rows added in this batch (next record: 29): 28 (uncompressed bytes in this segment=3642) in 0.01 seconds
+0324.620 (0) Table wp_usermeta: finishing file(s) (2, 1.7 KB)
+0324.625 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 64
+0324.626 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0324.631 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 137): 64 (uncompressed bytes in this segment=25586) in 0.01 seconds
+0324.636 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2.5 KB)
+0324.640 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0324.642 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.00 seconds
+0324.648 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0324.654 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0324.654 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0324.657 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=706) in 0.00 seconds
+0324.661 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0324.665 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 180
+0324.665 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0324.672 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 180): 180 (uncompressed bytes in this segment=16082) in 0.01 seconds
+0324.680 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 2 KB)
+0324.686 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0324.688 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0324.692 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0324.696 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0324.697 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0324.699 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2152) in 0.00 seconds
+0324.702 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0324.706 (0) Table wp_links: Total expected rows (via COUNT): 0
+0324.711 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.01 seconds
+0324.715 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0324.717 (0) Table wp_postmeta: Total expected rows (approximate): 12197
+0330.324 (0) Table wp_postmeta: binary mysqldump finished (writes: 78, bytes 47736988, return code 0) in 5.61 seconds
+0330.328 (0) Table wp_postmeta: finishing file(s) (1, 4228.4 KB)
+0330.341 (0) Table wp_posts: Total expected rows (approximate): 1595
+0330.841 (0) Table wp_posts: Rows added in this batch (next record: 1793): 1595 (uncompressed bytes in this segment=12327822) in 0.51 seconds
+0330.846 (0) Table wp_posts: finishing file(s) (2, 234.8 KB)
+0330.849 (0) Table wp_term_relationships: Total expected rows (approximate): 35
+0330.863 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 35 (uncompressed bytes in this segment=1190) in 0.01 seconds
+0330.866 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0330.871 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 7
+0330.872 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0330.874 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1169) in 0.01 seconds
+0330.879 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0330.896 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0330.897 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.02 seconds
+0330.902 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0330.905 (0) Table wp_terms: Total expected rows (via COUNT): 7
+0330.906 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0330.908 (0) Table wp_terms: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=938) in 0.00 seconds
+0330.912 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0330.915 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0330.917 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=529) in 0.00 seconds
+0330.927 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0330.931 (0) Table wp_e_submissions: Total expected rows (via COUNT): 0
+0330.932 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2282) in 0.00 seconds
+0330.936 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0330.940 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0330.941 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1251) in 0.00 seconds
+0330.944 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0330.949 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+0330.950 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.00 seconds
+0330.954 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0330.958 (0) Table wp_social_users: Total expected rows (via COUNT): 0
+0330.958 (0) Table wp_social_users: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=773) in 0.00 seconds
+0330.961 (0) Table wp_social_users: finishing file(s) (2, 0.4 KB)
+0330.970 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 43
+0330.971 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0330.974 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 43): 43 (uncompressed bytes in this segment=8459) in 0.01 seconds
+0330.978 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 1.9 KB)
+0330.983 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 37
+0330.984 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0330.988 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 37): 37 (uncompressed bytes in this segment=19014) in 0.01 seconds
+0330.996 (0) Table wp_wc_admin_notes: finishing file(s) (2, 4.9 KB)
+0330.999 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 22
+0331.001 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 22 (uncompressed bytes in this segment=821) in 0.00 seconds
+0331.005 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0331.008 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0331.009 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0331.012 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0331.023 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0331.024 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=747) in 0.00 seconds
+0331.028 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0331.031 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0331.032 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=717) in 0.00 seconds
+0331.035 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0331.038 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0331.039 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1227) in 0.00 seconds
+0331.043 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0331.046 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0331.050 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1122) in 0.01 seconds
+0331.054 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0331.058 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0331.059 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=799) in 0.00 seconds
+0331.075 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0331.078 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0331.079 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=862) in 0.00 seconds
+0331.083 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0331.092 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0331.093 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0331.095 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=923) in 0.00 seconds
+0331.099 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0331.103 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0331.105 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1361) in 0.00 seconds
+0331.108 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0331.112 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0331.126 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.01 seconds
+0331.130 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0331.133 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0331.134 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=665) in 0.00 seconds
+0331.138 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0331.141 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0331.153 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0331.156 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=812) in 0.02 seconds
+0331.159 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0331.163 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0331.165 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1230) in 0.00 seconds
+0331.168 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0331.173 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0331.174 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1046) in 0.00 seconds
+0331.190 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0331.194 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0331.195 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=961) in 0.00 seconds
+0331.198 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0331.202 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0331.203 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1538) in 0.00 seconds
+0331.213 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0331.218 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0331.219 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.00 seconds
+0331.224 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0331.228 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0331.230 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=771) in 0.00 seconds
+0331.242 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0331.246 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0331.252 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.01 seconds
+0331.255 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0331.260 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0331.267 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.01 seconds
+0331.272 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0331.276 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0331.280 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.01 seconds
+0331.284 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0331.289 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+0331.290 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0331.304 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2187) in 0.02 seconds
+0331.308 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.8 KB)
+0331.312 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0331.314 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=874) in 0.00 seconds
+0331.317 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0331.321 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0331.322 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.00 seconds
+0331.337 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0331.341 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0331.342 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.00 seconds
+0331.346 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0331.349 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0331.350 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=848) in 0.00 seconds
+0331.359 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0331.362 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0331.363 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1301) in 0.00 seconds
+0331.367 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0331.372 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0331.373 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0331.375 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=974) in 0.01 seconds
+0331.392 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0331.395 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_options.table.tmpr7491.gz (1/52/fopen): adding to final database dump
+0331.403 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_options.table.gz (2/52/fopen): adding to final database dump
+0331.404 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_users.table.tmpr2.gz (3/52/fopen): adding to final database dump
+0331.405 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_users.table.gz (4/52/fopen): adding to final database dump
+0331.405 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_usermeta.table.tmpr30.gz (5/52/fopen): adding to final database dump
+0331.406 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_usermeta.table.gz (6/52/fopen): adding to final database dump
+0331.407 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_actionscheduler_actions.table.tmpr138.gz (7/52/fopen): adding to final database dump
+0331.408 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_actionscheduler_actions.table.gz (8/52/fopen): adding to final database dump
+0331.408 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/52/fopen): adding to final database dump
+0331.409 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_actionscheduler_claims.table.gz (10/52/fopen): adding to final database dump
+0331.410 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/52/fopen): adding to final database dump
+0331.410 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_actionscheduler_groups.table.gz (12/52/fopen): adding to final database dump
+0331.411 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_actionscheduler_logs.table.tmpr181.gz (13/52/fopen): adding to final database dump
+0331.412 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_actionscheduler_logs.table.gz (14/52/fopen): adding to final database dump
+0331.412 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_commentmeta.table.tmpr0.gz (15/52/fopen): adding to final database dump
+0331.413 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_commentmeta.table.gz (16/52/fopen): adding to final database dump
+0331.414 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_comments.table.tmpr2.gz (17/52/fopen): adding to final database dump
+0331.414 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_comments.table.gz (18/52/fopen): adding to final database dump
+0331.415 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_links.table.tmpr0.gz (19/52/fopen): adding to final database dump
+0331.416 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_links.table.gz (20/52/fopen): adding to final database dump
+0331.416 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_postmeta.table.gz (21/52/fopen): adding to final database dump
+0335.604 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_posts.table.tmpr1794.gz (22/52/fopen): adding to final database dump
+0335.618 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_posts.table.gz (23/52/fopen): adding to final database dump
+0335.618 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_term_relationships.table.tmpr100001.gz (24/52/fopen): adding to final database dump
+0335.619 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_term_relationships.table.gz (25/52/fopen): adding to final database dump
+0335.620 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_term_taxonomy.table.tmpr8.gz (26/52/fopen): adding to final database dump
+0335.621 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_term_taxonomy.table.gz (27/52/fopen): adding to final database dump
+0335.621 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_termmeta.table.tmpr0.gz (28/52/fopen): adding to final database dump
+0335.622 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_termmeta.table.gz (29/52/fopen): adding to final database dump
+0335.623 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_terms.table.tmpr8.gz (30/52/fopen): adding to final database dump
+0335.623 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_terms.table.gz (31/52/fopen): adding to final database dump
+0335.624 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_e_events.table.tmpr0.gz (32/52/fopen): adding to final database dump
+0335.625 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_e_events.table.gz (33/52/fopen): adding to final database dump
+0335.625 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_e_submissions.table.tmpr0.gz (34/52/fopen): adding to final database dump
+0335.626 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_e_submissions.table.gz (35/52/fopen): adding to final database dump
+0335.627 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (36/52/fopen): adding to final database dump
+0335.628 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_e_submissions_actions_log.table.gz (37/52/fopen): adding to final database dump
+0335.628 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_e_submissions_values.table.tmpr0.gz (38/52/fopen): adding to final database dump
+0335.629 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_e_submissions_values.table.gz (39/52/fopen): adding to final database dump
+0335.630 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_social_users.table.tmpr0.gz (40/52/fopen): adding to final database dump
+0335.631 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_social_users.table.gz (41/52/fopen): adding to final database dump
+0335.631 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_admin_note_actions.table.tmpr44.gz (42/52/fopen): adding to final database dump
+0335.632 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_admin_note_actions.table.gz (43/52/fopen): adding to final database dump
+0335.633 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_admin_notes.table.tmpr38.gz (44/52/fopen): adding to final database dump
+0335.634 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_admin_notes.table.gz (45/52/fopen): adding to final database dump
+0335.635 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_category_lookup.table.tmpr1001.gz (46/52/fopen): adding to final database dump
+0335.635 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_category_lookup.table.gz (47/52/fopen): adding to final database dump
+0335.636 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_customer_lookup.table.tmpr0.gz (48/52/fopen): adding to final database dump
+0335.637 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_customer_lookup.table.gz (49/52/fopen): adding to final database dump
+0335.637 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_download_log.table.tmpr0.gz (50/52/fopen): adding to final database dump
+0335.638 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_download_log.table.gz (51/52/fopen): adding to final database dump
+0335.639 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (52/52/fopen): adding to final database dump
+0335.640 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_order_coupon_lookup.table.gz (53/52/fopen): adding to final database dump
+0335.640 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (54/52/fopen): adding to final database dump
+0335.641 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_order_product_lookup.table.gz (55/52/fopen): adding to final database dump
+0335.642 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_order_stats.table.tmpr0.gz (56/52/fopen): adding to final database dump
+0335.642 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_order_stats.table.gz (57/52/fopen): adding to final database dump
+0335.643 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (58/52/fopen): adding to final database dump
+0335.644 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_order_tax_lookup.table.gz (59/52/fopen): adding to final database dump
+0335.644 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (60/52/fopen): adding to final database dump
+0335.645 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_product_attributes_lookup.table.gz (61/52/fopen): adding to final database dump
+0335.646 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_product_download_directories.table.tmpr3.gz (62/52/fopen): adding to final database dump
+0335.647 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_product_download_directories.table.gz (63/52/fopen): adding to final database dump
+0335.647 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_product_meta_lookup.table.tmpr0.gz (64/52/fopen): adding to final database dump
+0335.648 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_product_meta_lookup.table.gz (65/52/fopen): adding to final database dump
+0335.649 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_rate_limits.table.tmpr0.gz (66/52/fopen): adding to final database dump
+0335.649 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_rate_limits.table.gz (67/52/fopen): adding to final database dump
+0335.650 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_reserved_stock.table.tmpr1.gz (68/52/fopen): adding to final database dump
+0335.651 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_reserved_stock.table.gz (69/52/fopen): adding to final database dump
+0335.652 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (70/52/fopen): adding to final database dump
+0335.652 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_tax_rate_classes.table.gz (71/52/fopen): adding to final database dump
+0335.653 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_webhooks.table.tmpr0.gz (72/52/fopen): adding to final database dump
+0335.654 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wc_webhooks.table.gz (73/52/fopen): adding to final database dump
+0335.654 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (74/52/fopen): adding to final database dump
+0335.655 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_api_keys.table.gz (75/52/fopen): adding to final database dump
+0335.656 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (76/52/fopen): adding to final database dump
+0335.657 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_attribute_taxonomies.table.gz (77/52/fopen): adding to final database dump
+0335.657 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (78/52/fopen): adding to final database dump
+0335.658 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (79/52/fopen): adding to final database dump
+0335.659 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_log.table.tmpr0.gz (80/52/fopen): adding to final database dump
+0335.659 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_log.table.gz (81/52/fopen): adding to final database dump
+0335.660 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (82/52/fopen): adding to final database dump
+0335.661 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_order_itemmeta.table.gz (83/52/fopen): adding to final database dump
+0335.661 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_order_items.table.tmpr0.gz (84/52/fopen): adding to final database dump
+0335.662 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_order_items.table.gz (85/52/fopen): adding to final database dump
+0335.663 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (86/52/fopen): adding to final database dump
+0335.664 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_payment_tokenmeta.table.gz (87/52/fopen): adding to final database dump
+0335.664 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (88/52/fopen): adding to final database dump
+0335.665 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_payment_tokens.table.gz (89/52/fopen): adding to final database dump
+0335.666 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_sessions.table.tmpr2.gz (90/52/fopen): adding to final database dump
+0335.667 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_sessions.table.gz (91/52/fopen): adding to final database dump
+0335.667 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (92/52/fopen): adding to final database dump
+0335.668 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_shipping_zone_locations.table.gz (93/52/fopen): adding to final database dump
+0335.669 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (94/52/fopen): adding to final database dump
+0335.669 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_shipping_zone_methods.table.gz (95/52/fopen): adding to final database dump
+0335.670 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (96/52/fopen): adding to final database dump
+0335.671 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_shipping_zones.table.gz (97/52/fopen): adding to final database dump
+0335.671 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (98/52/fopen): adding to final database dump
+0335.672 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_tax_rate_locations.table.gz (99/52/fopen): adding to final database dump
+0335.674 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (100/52/fopen): adding to final database dump
+0335.675 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_woocommerce_tax_rates.table.gz (101/52/fopen): adding to final database dump
+0335.675 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wpforms_tasks_meta.table.tmpr5.gz (102/52/fopen): adding to final database dump
+0335.676 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db-table-wp_wpforms_tasks_meta.table.gz (103/52/fopen): adding to final database dump
+0335.681 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db.gz: finished writing out complete database file (4617.9 KB)
+0335.821 (0) Total database tables backed up: 52 (backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db.gz, size: 4728791, sha1: 26600b18deb9710842efef0f4b605d297ff53e48, sha256: af66d47a432e62438dd1d65743461b251692b3551f52277a653c3d2aa34489ba)
+0335.830 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-plugins.zip: plugins: This file has already been successfully uploaded
+0335.831 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-themes.zip: themes: This file has already been successfully uploaded
+0335.831 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-uploads.zip: uploads: This file has already been successfully uploaded
+0335.832 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-others.zip: others: This file has already been successfully uploaded
+0335.832 (0) backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0335.833 (0) Saving backup history. Total backup size: 123 MB
+0335.837 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0335.839 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0335.840 (0) No remote despatch: user chose no remote backup service
+0335.841 (0) Recording as successfully uploaded: backup_2022-12-14-2134_Best_Help_Desk_Software_for_Tran_03efd579012b-db.gz
+0335.849 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0335.850 (0) Number of backup sets in history: 11; groups (db): 1
+0335.851 (0) Examining (for databases) backup set with group_id=0, nonce=03efd579012b, datestamp=1671053699 (Dec 14 2022 21:34:59)
+0335.851 (0) This backup set is the backup set just made, so will not be deleted.
+0335.851 (0) Examining (for databases) backup set with group_id=0, nonce=4a3fc63f2874, datestamp=1670986979 (Dec 14 2022 03:02:59)
+0335.851 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.852 (0) Examining (for databases) backup set with group_id=0, nonce=cafe67ad8562, datestamp=1670983348 (Dec 14 2022 02:02:28)
+0335.852 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.852 (0) Examining (for databases) backup set with group_id=0, nonce=0898697e0169, datestamp=1670964134 (Dec 13 2022 20:42:14)
+0335.852 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.852 (0) Examining (for databases) backup set with group_id=0, nonce=24c1ccfda8b8, datestamp=1670913416 (Dec 13 2022 06:36:56)
+0335.853 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.853 (0) Examining (for databases) backup set with group_id=0, nonce=df9bf748257a, datestamp=1670818963 (Dec 12 2022 04:22:43)
+0335.853 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.853 (0) Examining (for databases) backup set with group_id=0, nonce=5024fe6228ac, datestamp=1670818629 (Dec 12 2022 04:17:09)
+0335.853 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.853 (0) Examining (for databases) backup set with group_id=0, nonce=f67bfeb58b34, datestamp=1670192986 (Dec 04 2022 22:29:46)
+0335.853 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.853 (0) Examining (for databases) backup set with group_id=0, nonce=31d36658e791, datestamp=1670123340 (Dec 04 2022 03:09:00)
+0335.853 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.854 (0) Examining (for databases) backup set with group_id=0, nonce=e968eae106de, datestamp=1670119082 (Dec 04 2022 01:58:02)
+0335.854 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.854 (0) Examining (for databases) backup set with group_id=0, nonce=b5902934239c, datestamp=1670066205 (Dec 03 2022 11:16:45)
+0335.854 (0) 1670066205: db: this set includes a database (backup_2022-12-03-1116_Best_Help_Desk_Software_for_Tran_b5902934239c-db.gz); db count is now 10
+0335.854 (0) 1670066205: db: over retain limit (10); will delete this database
+0335.854 (0) Delete file: backup_2022-12-03-1116_Best_Help_Desk_Software_for_Tran_b5902934239c-db.gz, service=none
+0335.855 (0) Deleting local copy (backup_2022-12-03-1116_Best_Help_Desk_Software_for_Tran_b5902934239c-db.gz)
+0335.856 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0335.857 (0) Number of backup sets in history: 11; groups (files): 1
+0335.858 (0) Examining (for files) backup set with nonce=03efd579012b, datestamp=1671053699 (Dec 14 2022 21:34:59)
+0335.858 (0) This backup set is the backup set just made, so will not be deleted.
+0335.858 (0) This backup set is the backup set just made, so will not be deleted.
+0335.858 (0) This backup set is the backup set just made, so will not be deleted.
+0335.858 (0) This backup set is the backup set just made, so will not be deleted.
+0335.859 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.859 (0) Examining (for files) backup set with nonce=4a3fc63f2874, datestamp=1670986979 (Dec 14 2022 03:02:59)
+0335.859 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.859 (0) Examining (for files) backup set with nonce=cafe67ad8562, datestamp=1670983348 (Dec 14 2022 02:02:28)
+0335.859 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.860 (0) Examining (for files) backup set with nonce=0898697e0169, datestamp=1670964134 (Dec 13 2022 20:42:14)
+0335.860 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.860 (0) Examining (for files) backup set with nonce=24c1ccfda8b8, datestamp=1670913416 (Dec 13 2022 06:36:56)
+0335.860 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.860 (0) Examining (for files) backup set with nonce=df9bf748257a, datestamp=1670818963 (Dec 12 2022 04:22:43)
+0335.860 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.860 (0) Examining (for files) backup set with nonce=5024fe6228ac, datestamp=1670818629 (Dec 12 2022 04:17:09)
+0335.860 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.861 (0) Examining (for files) backup set with nonce=f67bfeb58b34, datestamp=1670192986 (Dec 04 2022 22:29:46)
+0335.861 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.861 (0) Examining (for files) backup set with nonce=31d36658e791, datestamp=1670123340 (Dec 04 2022 03:09:00)
+0335.861 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.861 (0) Examining (for files) backup set with nonce=e968eae106de, datestamp=1670119082 (Dec 04 2022 01:58:02)
+0335.861 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0335.861 (0) Examining (for files) backup set with nonce=b5902934239c, datestamp=1670066205 (Dec 03 2022 11:16:45)
+0335.861 (0) plugins: over retain limit (10); will delete this file entity
+0335.861 (0) themes: over retain limit (10); will delete this file entity
+0335.861 (0) uploads: over retain limit (10); will delete this file entity
+0335.861 (0) others: over retain limit (10); will delete this file entity
+0335.861 (0) Delete file: backup_2022-12-03-1116_Best_Help_Desk_Software_for_Tran_b5902934239c-plugins.zip, service=none
+0335.862 (0) Deleting local copy (backup_2022-12-03-1116_Best_Help_Desk_Software_for_Tran_b5902934239c-plugins.zip)
+0335.870 (0) Delete file: backup_2022-12-03-1116_Best_Help_Desk_Software_for_Tran_b5902934239c-themes.zip, service=none
+0335.871 (0) Deleting local copy (backup_2022-12-03-1116_Best_Help_Desk_Software_for_Tran_b5902934239c-themes.zip)
+0335.874 (0) Delete file: backup_2022-12-03-1116_Best_Help_Desk_Software_for_Tran_b5902934239c-uploads.zip, service=none
+0335.887 (0) Deleting local copy (backup_2022-12-03-1116_Best_Help_Desk_Software_for_Tran_b5902934239c-uploads.zip)
+0335.892 (0) Delete file: backup_2022-12-03-1116_Best_Help_Desk_Software_for_Tran_b5902934239c-others.zip, service=none
+0335.892 (0) Deleting local copy (backup_2022-12-03-1116_Best_Help_Desk_Software_for_Tran_b5902934239c-others.zip)
+0335.894 (0) This backup set is now empty; will remove from history
+0335.895 (0) Deleting log file (log.b5902934239c.txt)
+0335.896 (0) Retain: saving new backup history (sets now: 10) and finishing retain operation
+0335.899 (0) Resume backup (03efd579012b, 0): finish run
+0335.901 (0) Decremented the semaphore (fd) by 1
+0335.910 (0) Semaphore (fd) unlocked
+0335.911 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0335.914 (0) No email will/can be sent - the user has not configured an email address.
+0335.914 (0) The backup apparently succeeded and is now complete
