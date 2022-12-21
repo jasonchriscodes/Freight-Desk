@@ -1,0 +1,257 @@
+0000.002 () Opened log file at time: Tue, 20 Dec 2022 21:35:05 +0000 on https://freightdesk.co.nz
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 7.3.33 (fpm-fcgi, Linux whm1.nzcloudservices.nz 3.10.0-962.3.2.lve1.5.26.4.el7.x86_64 #1 SMP Wed Sep 11 10:29:54 EDT 2019 x86_64) MySQL: 5.7.40 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1G (used: 72.7M | 17M) multisite: N openssl: OpenSSL 1.1.1s  1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.043 () Free space on disk containing Updraft's temporary directory: 471810.5 MB
+0000.067 () Restore setup, now closing connection and starting restore over AJAX.
+0000.001 () Opened log file at time: Tue, 20 Dec 2022 21:35:07 +0000 on https://freightdesk.co.nz
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 7.3.33 (fpm-fcgi, Linux whm1.nzcloudservices.nz 3.10.0-962.3.2.lve1.5.26.4.el7.x86_64 #1 SMP Wed Sep 11 10:29:54 EDT 2019 x86_64) MySQL: 5.7.40 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1G (used: 68.6M | 7M) multisite: N openssl: OpenSSL 1.1.1s  1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.066 () Free space on disk containing Updraft's temporary directory: 471810.3 MB
+0000.091 () Ensuring WP_Filesystem is setup for a restore
+0000.092 () WP_Filesystem is setup and ready for a restore
+0000.096 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_e_events","wp_e_submissions","wp_e_submissions_actions_log","wp_e_submissions_values","wp_litespeed_url","wp_litespeed_url_file","wp_social_users","wp_wc_admin_note_actions","wp_wc_admin_notes","wp_wc_category_lookup","wp_wc_customer_lookup","wp_wc_download_log","wp_wc_order_coupon_lookup","wp_wc_order_product_lookup","wp_wc_order_stats","wp_wc_order_tax_lookup","wp_wc_product_attributes_lookup","wp_wc_product_download_directories","wp_wc_product_meta_lookup","wp_wc_rate_limits","wp_wc_reserved_stock","wp_wc_tax_rate_classes","wp_wc_webhooks","wp_woocommerce_api_keys","wp_woocommerce_attribute_taxonomies","wp_woocommerce_downloadable_product_permissions","wp_woocommerce_log","wp_woocommerce_order_itemmeta","wp_woocommerce_order_items","wp_woocommerce_payment_tokenmeta","wp_woocommerce_payment_tokens","wp_woocommerce_sessions","wp_woocommerce_shipping_zone_locations","wp_woocommerce_shipping_zone_methods","wp_woocommerce_shipping_zones","wp_woocommerce_tax_rate_locations","wp_woocommerce_tax_rates","wp_wpforms_tasks_meta"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.101 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.103 () Entity: db
+0000.103 () restore_backup(backup_file=backup_2022-12-20-2048_Best_Help_Desk_Software_for_Tran_72f2d3d29a2b-db.gz, type=db, info=a:0:{}, last_one=)
+0000.103 () Unpacking backup... (backup_2022-12-20-2048_Best_Help_Desk_Software_for_Tran_72f2d3d29a2b-db.gz, 5.3 Mb)
+0000.114 () Database successfully unpacked
+0000.114 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.115 () Using direct MySQL access; value of use_mysqli is: 1
+0000.115 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.243 () Max packet size: 256 MB
+0000.243 () Entering maintenance mode
+0000.243 () Enabling Maintenance mode&#8230;
+0000.259 () Backup of: https://freightdesk.co.nz
+0000.260 () Content URL: https://freightdesk.co.nz/wp-content
+0000.260 () Uploads URL: https://freightdesk.co.nz/wp-content/uploads
+0000.260 () Old table prefix: wp_
+0000.261 () Site information: multisite=0
+0000.261 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.264 () New table prefix: nz_
+0000.268 () Processing table (MyISAM): wp_options - will restore as: nz_options
+0000.394 () Atomic restore: dropping original table (wp_options)
+0000.401 () Atomic restore: renaming new table (nz_options) to final table name (wp_options)
+0000.403 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.418 () Processing table (MyISAM): wp_users - will restore as: nz_users
+0000.451 () Atomic restore: dropping original table (wp_users)
+0000.452 () Atomic restore: renaming new table (nz_users) to final table name (wp_users)
+0000.453 () Processing table (MyISAM): wp_usermeta - will restore as: nz_usermeta
+0000.479 () Atomic restore: dropping original table (wp_usermeta)
+0000.480 () Atomic restore: renaming new table (nz_usermeta) to final table name (wp_usermeta)
+0000.481 () Processing table (MyISAM): wp_commentmeta - will restore as: nz_commentmeta
+0000.517 () Atomic restore: dropping original table (wp_commentmeta)
+0000.518 () Atomic restore: renaming new table (nz_commentmeta) to final table name (wp_commentmeta)
+0000.519 () Processing table (MyISAM): wp_comments - will restore as: nz_comments
+0000.544 () Atomic restore: dropping original table (wp_comments)
+0000.546 () Atomic restore: renaming new table (nz_comments) to final table name (wp_comments)
+0000.546 () Processing table (MyISAM): wp_links - will restore as: nz_links
+0000.567 () Atomic restore: dropping original table (wp_links)
+0000.568 () Atomic restore: renaming new table (nz_links) to final table name (wp_links)
+0000.569 () Processing table (MyISAM): wp_postmeta - will restore as: nz_postmeta
+0001.140 () Database queries processed: 50 in 1.02 seconds
+0002.854 () Atomic restore: dropping original table (wp_postmeta)
+0002.871 () Atomic restore: renaming new table (nz_postmeta) to final table name (wp_postmeta)
+0002.872 () Processing table (MyISAM): wp_posts - will restore as: nz_posts
+0002.924 () Database queries processed: 100 in 2.81 seconds
+0003.832 () Atomic restore: dropping original table (wp_posts)
+0003.853 () Atomic restore: renaming new table (nz_posts) to final table name (wp_posts)
+0003.854 () Processing table (MyISAM): wp_term_relationships - will restore as: nz_term_relationships
+0003.882 () Atomic restore: dropping original table (wp_term_relationships)
+0003.883 () Atomic restore: renaming new table (nz_term_relationships) to final table name (wp_term_relationships)
+0003.883 () Processing table (MyISAM): wp_term_taxonomy - will restore as: nz_term_taxonomy
+0003.904 () Atomic restore: dropping original table (wp_term_taxonomy)
+0003.905 () Atomic restore: renaming new table (nz_term_taxonomy) to final table name (wp_term_taxonomy)
+0003.906 () Processing table (MyISAM): wp_termmeta - will restore as: nz_termmeta
+0003.926 () Atomic restore: dropping original table (wp_termmeta)
+0003.927 () Atomic restore: renaming new table (nz_termmeta) to final table name (wp_termmeta)
+0003.928 () Processing table (MyISAM): wp_terms - will restore as: nz_terms
+0003.949 () Atomic restore: dropping original table (wp_terms)
+0003.950 () Atomic restore: renaming new table (nz_terms) to final table name (wp_terms)
+0003.950 () Processing table (MyISAM): wp_actionscheduler_actions - will restore as: nz_actionscheduler_actions
+0003.978 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0003.984 () Atomic restore: renaming new table (nz_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0003.984 () Processing table (MyISAM): wp_actionscheduler_claims - will restore as: nz_actionscheduler_claims
+0004.018 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0004.019 () Atomic restore: renaming new table (nz_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0004.020 () Processing table (MyISAM): wp_actionscheduler_groups - will restore as: nz_actionscheduler_groups
+0004.042 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0004.043 () Database queries processed: 150 in 3.93 seconds
+0004.043 () Atomic restore: renaming new table (nz_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0004.043 () Processing table (MyISAM): wp_actionscheduler_logs - will restore as: nz_actionscheduler_logs
+0004.079 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0004.080 () Atomic restore: renaming new table (nz_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0004.081 () Processing table (MyISAM): wp_e_events - will restore as: nz_e_events
+0004.111 () Atomic restore: dropping original table (wp_e_events)
+0004.111 () Atomic restore: renaming new table (nz_e_events) to final table name (wp_e_events)
+0004.112 () Processing table (MyISAM): wp_e_submissions - will restore as: nz_e_submissions
+0004.133 () Atomic restore: dropping original table (wp_e_submissions)
+0004.134 () Atomic restore: renaming new table (nz_e_submissions) to final table name (wp_e_submissions)
+0004.134 () Processing table (MyISAM): wp_e_submissions_actions_log - will restore as: nz_e_submissions_actions_log
+0004.156 () Atomic restore: dropping original table (wp_e_submissions_actions_log)
+0004.157 () Atomic restore: renaming new table (nz_e_submissions_actions_log) to final table name (wp_e_submissions_actions_log)
+0004.158 () Processing table (MyISAM): wp_e_submissions_values - will restore as: nz_e_submissions_values
+0004.180 () Atomic restore: dropping original table (wp_e_submissions_values)
+0004.180 () Atomic restore: renaming new table (nz_e_submissions_values) to final table name (wp_e_submissions_values)
+0004.181 () Processing table (MyISAM): wp_litespeed_url - will restore as: nz_litespeed_url
+0004.202 () Atomic restore: dropping original table (wp_litespeed_url)
+0004.203 () Atomic restore: renaming new table (nz_litespeed_url) to final table name (wp_litespeed_url)
+0004.203 () Processing table (MyISAM): wp_litespeed_url_file - will restore as: nz_litespeed_url_file
+0004.225 () Atomic restore: dropping original table (wp_litespeed_url_file)
+0004.226 () Atomic restore: renaming new table (nz_litespeed_url_file) to final table name (wp_litespeed_url_file)
+0004.227 () Processing table (MyISAM): wp_social_users - will restore as: nz_social_users
+0004.249 () Atomic restore: dropping original table (wp_social_users)
+0004.249 () Atomic restore: renaming new table (nz_social_users) to final table name (wp_social_users)
+0004.250 () Processing table (MyISAM): wp_wc_admin_note_actions - will restore as: nz_wc_admin_note_actions
+0004.273 () Atomic restore: dropping original table (wp_wc_admin_note_actions)
+0004.274 () Atomic restore: renaming new table (nz_wc_admin_note_actions) to final table name (wp_wc_admin_note_actions)
+0004.274 () Processing table (MyISAM): wp_wc_admin_notes - will restore as: nz_wc_admin_notes
+0004.296 () Atomic restore: dropping original table (wp_wc_admin_notes)
+0004.297 () Atomic restore: renaming new table (nz_wc_admin_notes) to final table name (wp_wc_admin_notes)
+0004.297 () Processing table (MyISAM): wp_wc_category_lookup - will restore as: nz_wc_category_lookup
+0004.318 () Atomic restore: dropping original table (wp_wc_category_lookup)
+0004.319 () Atomic restore: renaming new table (nz_wc_category_lookup) to final table name (wp_wc_category_lookup)
+0004.319 () Processing table (MyISAM): wp_wc_customer_lookup - will restore as: nz_wc_customer_lookup
+0004.341 () Atomic restore: dropping original table (wp_wc_customer_lookup)
+0004.342 () Atomic restore: renaming new table (nz_wc_customer_lookup) to final table name (wp_wc_customer_lookup)
+0004.342 () Processing table (MyISAM): wp_wc_download_log - will restore as: nz_wc_download_log
+0004.364 () Atomic restore: dropping original table (wp_wc_download_log)
+0004.364 () Atomic restore: renaming new table (nz_wc_download_log) to final table name (wp_wc_download_log)
+0004.365 () Processing table (MyISAM): wp_wc_order_coupon_lookup - will restore as: nz_wc_order_coupon_lookup
+0004.387 () Atomic restore: dropping original table (wp_wc_order_coupon_lookup)
+0004.387 () Atomic restore: renaming new table (nz_wc_order_coupon_lookup) to final table name (wp_wc_order_coupon_lookup)
+0004.388 () Processing table (MyISAM): wp_wc_order_product_lookup - will restore as: nz_wc_order_product_lookup
+0004.423 () Atomic restore: dropping original table (wp_wc_order_product_lookup)
+0004.423 () Atomic restore: renaming new table (nz_wc_order_product_lookup) to final table name (wp_wc_order_product_lookup)
+0004.424 () Processing table (MyISAM): wp_wc_order_stats - will restore as: nz_wc_order_stats
+0004.443 () Atomic restore: dropping original table (wp_wc_order_stats)
+0004.443 () Atomic restore: renaming new table (nz_wc_order_stats) to final table name (wp_wc_order_stats)
+0004.444 () Processing table (MyISAM): wp_wc_order_tax_lookup - will restore as: nz_wc_order_tax_lookup
+0004.500 () Atomic restore: dropping original table (wp_wc_order_tax_lookup)
+0004.501 () Atomic restore: renaming new table (nz_wc_order_tax_lookup) to final table name (wp_wc_order_tax_lookup)
+0004.501 () Processing table (MyISAM): wp_wc_product_attributes_lookup - will restore as: nz_wc_product_attributes_lookup
+0004.623 () Atomic restore: dropping original table (wp_wc_product_attributes_lookup)
+0004.630 () Atomic restore: renaming new table (nz_wc_product_attributes_lookup) to final table name (wp_wc_product_attributes_lookup)
+0004.631 () Processing table (MyISAM): wp_wc_product_download_directories - will restore as: nz_wc_product_download_directories
+0004.669 () Atomic restore: dropping original table (wp_wc_product_download_directories)
+0004.670 () Atomic restore: renaming new table (nz_wc_product_download_directories) to final table name (wp_wc_product_download_directories)
+0004.670 () Processing table (MyISAM): wp_wc_product_meta_lookup - will restore as: nz_wc_product_meta_lookup
+0004.732 () Atomic restore: dropping original table (wp_wc_product_meta_lookup)
+0004.735 () Atomic restore: renaming new table (nz_wc_product_meta_lookup) to final table name (wp_wc_product_meta_lookup)
+0004.735 () Processing table (MyISAM): wp_wc_rate_limits - will restore as: nz_wc_rate_limits
+0004.758 () Atomic restore: dropping original table (wp_wc_rate_limits)
+0004.759 () Atomic restore: renaming new table (nz_wc_rate_limits) to final table name (wp_wc_rate_limits)
+0004.760 () Processing table (MyISAM): wp_wc_reserved_stock - will restore as: nz_wc_reserved_stock
+0004.778 () Atomic restore: dropping original table (wp_wc_reserved_stock)
+0004.779 () Atomic restore: renaming new table (nz_wc_reserved_stock) to final table name (wp_wc_reserved_stock)
+0004.780 () Processing table (MyISAM): wp_wc_tax_rate_classes - will restore as: nz_wc_tax_rate_classes
+0004.816 () Database queries processed: 200 in 4.70 seconds
+0004.819 () Atomic restore: dropping original table (wp_wc_tax_rate_classes)
+0004.819 () Atomic restore: renaming new table (nz_wc_tax_rate_classes) to final table name (wp_wc_tax_rate_classes)
+0004.820 () Processing table (MyISAM): wp_wc_webhooks - will restore as: nz_wc_webhooks
+0004.839 () Atomic restore: dropping original table (wp_wc_webhooks)
+0004.840 () Atomic restore: renaming new table (nz_wc_webhooks) to final table name (wp_wc_webhooks)
+0004.840 () Processing table (MyISAM): wp_woocommerce_api_keys - will restore as: nz_woocommerce_api_keys
+0004.862 () Atomic restore: dropping original table (wp_woocommerce_api_keys)
+0004.863 () Atomic restore: renaming new table (nz_woocommerce_api_keys) to final table name (wp_woocommerce_api_keys)
+0004.863 () Processing table (MyISAM): wp_woocommerce_attribute_taxonomies - will restore as: nz_woocommerce_attribute_taxonomies
+0004.886 () Atomic restore: dropping original table (wp_woocommerce_attribute_taxonomies)
+0004.886 () Atomic restore: renaming new table (nz_woocommerce_attribute_taxonomies) to final table name (wp_woocommerce_attribute_taxonomies)
+0004.887 () Processing table (MyISAM): wp_woocommerce_downloadable_product_permissions - will restore as: nz_woocommerce_downloadable_product_permissions
+0004.905 () Atomic restore: dropping original table (wp_woocommerce_downloadable_product_permissions)
+0004.905 () Atomic restore: renaming new table (nz_woocommerce_downloadable_product_permissions) to final table name (wp_woocommerce_downloadable_product_permissions)
+0004.906 () Processing table (MyISAM): wp_woocommerce_log - will restore as: nz_woocommerce_log
+0004.922 () Atomic restore: dropping original table (wp_woocommerce_log)
+0004.922 () Atomic restore: renaming new table (nz_woocommerce_log) to final table name (wp_woocommerce_log)
+0004.923 () Processing table (MyISAM): wp_woocommerce_order_itemmeta - will restore as: nz_woocommerce_order_itemmeta
+0004.939 () Atomic restore: dropping original table (wp_woocommerce_order_itemmeta)
+0004.940 () Atomic restore: renaming new table (nz_woocommerce_order_itemmeta) to final table name (wp_woocommerce_order_itemmeta)
+0004.940 () Processing table (MyISAM): wp_woocommerce_order_items - will restore as: nz_woocommerce_order_items
+0004.956 () Atomic restore: dropping original table (wp_woocommerce_order_items)
+0004.957 () Atomic restore: renaming new table (nz_woocommerce_order_items) to final table name (wp_woocommerce_order_items)
+0004.957 () Processing table (MyISAM): wp_woocommerce_payment_tokenmeta - will restore as: nz_woocommerce_payment_tokenmeta
+0004.974 () Atomic restore: dropping original table (wp_woocommerce_payment_tokenmeta)
+0004.974 () Atomic restore: renaming new table (nz_woocommerce_payment_tokenmeta) to final table name (wp_woocommerce_payment_tokenmeta)
+0004.975 () Processing table (MyISAM): wp_woocommerce_payment_tokens - will restore as: nz_woocommerce_payment_tokens
+0004.997 () Atomic restore: dropping original table (wp_woocommerce_payment_tokens)
+0004.997 () Atomic restore: renaming new table (nz_woocommerce_payment_tokens) to final table name (wp_woocommerce_payment_tokens)
+0004.998 () Processing table (MyISAM): wp_woocommerce_sessions - will restore as: nz_woocommerce_sessions
+0005.021 () Atomic restore: dropping original table (wp_woocommerce_sessions)
+0005.021 () Atomic restore: renaming new table (nz_woocommerce_sessions) to final table name (wp_woocommerce_sessions)
+0005.021 () Processing table (MyISAM): wp_woocommerce_shipping_zone_locations - will restore as: nz_woocommerce_shipping_zone_locations
+0005.043 () Atomic restore: dropping original table (wp_woocommerce_shipping_zone_locations)
+0005.044 () Atomic restore: renaming new table (nz_woocommerce_shipping_zone_locations) to final table name (wp_woocommerce_shipping_zone_locations)
+0005.044 () Processing table (MyISAM): wp_woocommerce_shipping_zone_methods - will restore as: nz_woocommerce_shipping_zone_methods
+0005.066 () Atomic restore: dropping original table (wp_woocommerce_shipping_zone_methods)
+0005.066 () Atomic restore: renaming new table (nz_woocommerce_shipping_zone_methods) to final table name (wp_woocommerce_shipping_zone_methods)
+0005.067 () Processing table (MyISAM): wp_woocommerce_shipping_zones - will restore as: nz_woocommerce_shipping_zones
+0005.088 () Atomic restore: dropping original table (wp_woocommerce_shipping_zones)
+0005.088 () Atomic restore: renaming new table (nz_woocommerce_shipping_zones) to final table name (wp_woocommerce_shipping_zones)
+0005.089 () Processing table (MyISAM): wp_woocommerce_tax_rate_locations - will restore as: nz_woocommerce_tax_rate_locations
+0005.122 () Atomic restore: dropping original table (wp_woocommerce_tax_rate_locations)
+0005.123 () Atomic restore: renaming new table (nz_woocommerce_tax_rate_locations) to final table name (wp_woocommerce_tax_rate_locations)
+0005.123 () Processing table (MyISAM): wp_woocommerce_tax_rates - will restore as: nz_woocommerce_tax_rates
+0005.141 () Atomic restore: dropping original table (wp_woocommerce_tax_rates)
+0005.142 () Atomic restore: renaming new table (nz_woocommerce_tax_rates) to final table name (wp_woocommerce_tax_rates)
+0005.143 () Processing table (MyISAM): wp_wpforms_tasks_meta - will restore as: nz_wpforms_tasks_meta
+0005.644 () Unlocking database and leaving maintenance mode
+0005.644 () Disabling Maintenance mode&#8230;
+0005.645 () Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0005.646 () Atomic restore: renaming new table (nz_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0005.646 () Finished: lines processed: 237 in 5.53 seconds
+0005.648 () Cleaning up rubbish...
+0005.657 () Entity: plugins
+0005.657 () restore_backup(backup_file=backup_2022-12-20-2048_Best_Help_Desk_Software_for_Tran_72f2d3d29a2b-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:50:"/home/freightdeskco/public_html/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0005.657 () Unpacking backup... (backup_2022-12-20-2048_Best_Help_Desk_Software_for_Tran_72f2d3d29a2b-plugins.zip, 40.5 MB)
+0005.658 () Unzipping backup_2022-12-20-2048_Best_Help_Desk_Software_for_Tran_72f2d3d29a2b-plugins.zip to /home/freightdeskco/public_html/wp-content/upgrade/f1a7b5a6/ using UpdraftPlus_PclZip, starting index 0
+0006.982 () Unzip progress: 1494 out of 8103 files (53.6 KB, plugins/metform/templates/11/preview-thumb.svg)
+0024.080 () Unzip progress: 2231 out of 8103 files (15.1 MB, plugins/elementor-pro/assets/js/preview.js)
+0040.062 () Unzip progress: 2928 out of 8103 files (29.4 MB, plugins/jetpack-boost/jetpack_vendor/automattic/jetpack-assets/CHANGELOG.md)
+0054.063 () Unzip progress: 3929 out of 8103 files (40.9 MB, plugins/elementor/assets/js/lazyload.min.js)
+0070.060 () Unzip progress: 4170 out of 8103 files (56.3 MB, plugins/elementor/assets/css/editor.min.css)
+0086.044 () Unzip progress: 4825 out of 8103 files (72.6 MB, plugins/webp-express/vendor/rosell-dk/webp-convert/src/Convert/Converters/Binaries/cwebp-110-linux-x86-64)
+0100.092 () Unzip progress: 5826 out of 8103 files (83.9 MB, plugins/updraftplus/vendor/aws/aws-crt-php/Makefile.frag)
+0116.119 () Unzip progress: 6289 out of 8103 files (97.2 MB, plugins/updraftplus/languages/updraftplus-fi.po)
+0132.087 () Unzip progress: 6961 out of 8103 files (111.5 MB, plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js)
+0146.099 () Unzip progress: 7962 out of 8103 files (123.9 MB, plugins/premium-addons-for-elementor/admin/assets/js/admin.js)
+0152.088 () Unzip progress: 8103 out of 8103 files (128.8 MB, plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/imagesloaded/imagesloaded.pkgd.min.js)
+0152.093 () Moving old data: filesystem method / updraft_dir is potentially possible
+0152.094 () Moving old data: can potentially use wp_filesystem method / -old
+0152.094 () Moving old data out of the way...
+0152.433 () Top-level entities being moved: elementor-pro, metform, autoptimize, litespeed-cache, country-phone-field-contact-form-7, jetpack-boost, contact-form-7, elementor, elementor-beta, header-footer-elementor, webp-express, updraftplus, rocket-lazy-load, index.php, essential-addons-for-elementor-lite, wp-optimize, premium-addons-for-elementor, animentor-lottie-bodymovin-elementor
+0152.438 () Moving unpacked backup into place...
+0152.876 () Top-level entities being moved: elementor-pro, metform, autoptimize, litespeed-cache, country-phone-field-contact-form-7, jetpack-boost, contact-form-7, elementor, elementor-beta, header-footer-elementor, webp-express, updraftplus, rocket-lazy-load, index.php, essential-addons-for-elementor-lite, premium-addons-for-elementor, animentor-lottie-bodymovin-elementor
+0152.880 () Cleaning up rubbish...
+0152.882 () Entity: themes
+0152.883 () restore_backup(backup_file=backup_2022-12-20-2048_Best_Help_Desk_Software_for_Tran_72f2d3d29a2b-themes.zip, type=themes, info=a:3:{s:4:"path";s:49:"/home/freightdeskco/public_html/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0152.883 () Unpacking backup... (backup_2022-12-20-2048_Best_Help_Desk_Software_for_Tran_72f2d3d29a2b-themes.zip, 23.1 MB)
+0152.883 () Unzipping backup_2022-12-20-2048_Best_Help_Desk_Software_for_Tran_72f2d3d29a2b-themes.zip to /home/freightdeskco/public_html/wp-content/upgrade/1fce34eb/ using UpdraftPlus_PclZip, starting index 0
+0159.003 () Unzip progress: 1002 out of 3257 files (5.8 MB, themes/flatsome/woocommerce/single-product/product-image-wide.php)
+0173.046 () Unzip progress: 2003 out of 3257 files (18 MB, themes/flatsome/inc/builder/shortcodes/tabgroup.php)
+0190.948 () Unzip progress: 2594 out of 3257 files (34.1 MB, themes/astra/inc/customizer/custom-controls/assets/js/unminified/custom-controls.js)
+0206.939 () Unzip progress: 3240 out of 3257 files (47.7 MB, themes/twentytwentytwo/assets/images/flight-path-on-transparent-d.png)
+0206.947 () Unzip progress: 3257 out of 3257 files (49 MB, themes/twentytwentytwo/assets/fonts/SourceSerif4Variable-Italic.otf.woff2)
+0206.951 () Moving old data: filesystem method / updraft_dir is potentially possible
+0206.951 () Moving old data: can potentially use wp_filesystem method / -old
+0206.951 () Moving old data out of the way...
+0207.075 () Top-level entities being moved: twentytwentythree, flatsome-child, twentytwentyone, flatsome, astra, index.php, twentytwentytwo
+0207.076 () Moving unpacked backup into place...
+0207.208 () Top-level entities being moved: twentytwentythree, flatsome-child, twentytwentyone, flatsome, astra, index.php, twentytwentytwo
+0207.210 () Cleaning up rubbish...
+0207.212 () Entity: uploads
+0207.212 () restore_backup(backup_file=backup_2022-12-20-2048_Best_Help_Desk_Software_for_Tran_72f2d3d29a2b-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:50:"/home/freightdeskco/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0207.212 () Unpacking backup... (backup_2022-12-20-2048_Best_Help_Desk_Software_for_Tran_72f2d3d29a2b-uploads.zip, 29.1 MB)
+0207.213 () Unzipping backup_2022-12-20-2048_Best_Help_Desk_Software_for_Tran_72f2d3d29a2b-uploads.zip to /home/freightdeskco/public_html/wp-content/upgrade/010f8fa2/ using UpdraftPlus_PclZip, starting index 0
+0226.941 () Unzip progress: 40 out of 114 files (18.8 MB, uploads/2022/12/hyundai.png)
+0240.913 () Unzip progress: 114 out of 114 files (32.7 MB, uploads/2022/12/smart-service-1.png)
+0240.916 () Moving old data: filesystem method / updraft_dir is potentially possible
+0240.917 () Moving old data: can potentially use wp_filesystem method / -old
+0240.917 () Moving old data out of the way...
+0240.923 () Moving unpacked backup into place...
+0240.930 () Cleaning up rubbish...
+0240.933 () Entity: others
+0240.933 () restore_backup(backup_file=backup_2022-12-20-2048_Best_Help_Desk_Software_for_Tran_72f2d3d29a2b-others.zip, type=others, info=a:2:{s:4:"path";s:42:"/home/freightdeskco/public_html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0240.933 () Unpacking backup... (backup_2022-12-20-2048_Best_Help_Desk_Software_for_Tran_72f2d3d29a2b-others.zip, 2.4 MB)
+0240.933 () Unzipping backup_2022-12-20-2048_Best_Help_Desk_Software_for_Tran_72f2d3d29a2b-others.zip to /home/freightdeskco/public_html/wp-content/upgrade/132100df/ using UpdraftPlus_PclZip, starting index 0
+0242.931 () Unzip progress: 85 out of 85 files (2.6 MB, autoptimize_404_handler.php)
+0242.933 () Cleaning up rubbish...
+0242.948 () Elementor's clear cache method exists and will be executed
+0243.028 () Restore successful!
+0243.029 () Restore successful
